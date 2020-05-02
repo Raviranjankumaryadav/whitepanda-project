@@ -1,0 +1,190 @@
+*{
+	list-style:none;
+	font-family:serif;
+
+}
+body{
+	width:100%;
+	height:800px;
+	background:#ff596f;}
+
+.main{
+	width:100%;
+	height:auto;
+	background:#;
+	margin-top:1%;
+}
+.car{
+	height:300px;
+	width:25%;
+	margin:4%;
+	box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+	background:#;
+
+}
+.sold{
+	height:300px;
+	width:25%;
+	margin:4%;
+	box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+	background:#;
+	opacity:0.3;
+
+
+}
+.solid:hover{
+	color:green;
+	background:green;
+}
+.menu{
+	width:100%;
+	height:300px;
+	background:black;
+	box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+	margin:0px;
+	padding:0px;
+}
+.imgcar{
+	width:80%;
+	height:50%;
+	position:absolute;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       g Az position:absolute;
+}
+.btn-success{
+	position:relative;
+	border:none;
+	margin-top:80%;
+	width:70%;
+	height:40px;
+	align-content:center;
+	
+}
+.btn-primary{
+margin-top:2%;
+	position:relative;
+	width:70%;
+	height:40px;
+	border:none;
+
+}
+ul,li{
+	float:left;
+	margin-right:30px;
+}
+.active{
+	width:400px;
+	height:100px;
+	border:1px solid red;
+}
+a{
+	color:white;
+}
+.gif{
+	width:50%;
+	height:300px;
+	position:absolute;
+	float:left;
+}
+h2{
+	position:relative;
+	color:white;
+	font-size:32px;
+	font-family:serif;
+	text-align:center;
+	font:bold;
+	font-weight:5px;
+	animation:ravi 5s infinite;
+	text-shadow:2px red;
+
+	
+}
+.btn{
+	width:auto;
+	height:40px;
+	position:relative;
+	background:red;
+	color:white;
+	font-family:serif;
+	
+}
+p{
+	font-family:cursive;
+	color:blue;
+	animation:ravi 5s infinite;
+
+}
+.btn:hover{
+	width:200px;
+	height:50px;
+	color:white;
+	background:green;
+
+}
+.gg{
+	width:100%;
+	height:400px;
+	background:#09032e;
+	color:white;
+	
+
+}
+.left{
+	float:left;
+	width:40%;
+	height:300px;
+    color:white;
+	
+}
+.right{
+	float:right;
+	width:40%;
+	height:300px;
+	
+}
+.fa-car{
+	font-size:20px;
+	color:red;
+}
+ol{
+	margin:4%;
+	color:white;
+	font-family:serif;
+font-size:18px;
+}
+.menurr{
+	width:100%;
+	height:40px;
+	border:1px solid white;
+}
+
+
+
+
+
+
+
+@keyframes ravi{
+
+	0%{
+		width:40%;
+	}
+	100%{
+		width:100%;
+	}
+}
+@media only screen and (max-width:600px) {
+.main{
+width:100%;
+height:500px;
+}
+.gg{
+	width:100%;
+	height:500px;
+	background:#09032e;
+	color:white;
+	
+
+}
+
+
+
+}
